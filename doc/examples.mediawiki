@@ -17,7 +17,7 @@
   -sub test +cc +bc -v
   -user you -pass "your_password"
 
-As -auth is specified, CRAM-MD5, LOGIN, PLAIN will be tried in that order.  Use -auth-cram-md5, -auth-plan, -auth-login for specific auth mechanism.
+As -auth is specified, CRAM-MD5, LOGIN, PLAIN will be tried in that order.  Use -auth-cram-md5, -auth-plain, -auth-login for specific auth mechanism.
 
 Note: Password can be set by env var SMTP_USER_PASS instead of -pass
 
